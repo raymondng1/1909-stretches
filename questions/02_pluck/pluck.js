@@ -16,13 +16,22 @@ pluck(obj3, ['a', 'c', 'x'])
 returns { a: 1, c: 42};
 */
 
-function pluck(obj, elements) {
-  const newObj = {};
-  elements.forEach(el => {
-    if (obj[el] !== undefined) newObj[el] = obj[el];
-  });
+// function pluck(obj, elements) {
+//   const newObj = {};
+//   elements.forEach(el => {
+//     if (obj[el] !== undefined) newObj[el] = obj[el];
+//   });
+//   return newObj;
+// }
 
+// module.exports = { pluck };
+
+const pluck = (obj,arr) => {
+  let newObj = {};
+  arr.forEach(element => {
+    if(obj[element]!== undefined){
+      newObj[element] = obj[element]
+    }
+  });
   return newObj;
 }
-
-module.exports = { pluck };
