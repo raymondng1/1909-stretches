@@ -44,12 +44,26 @@ const items = [
 //       price: 4,
 //   }]
 
-function query(arr, obj) {
-  let newArray = [];
+// function query(arr, obj) {
+//   let newArray = [];
 
-  return arr.filter(element=>{
-    obj.hasOwnProperty(elements[i])
-  })
-}
+//   return arr.filter(element=>{
+//     obj.hasOwnProperty(elements[i])
+//   })
+// }
 
-module.exports = { query, items };
+// module.exports = { query, items };
+// const query = (arrOfObjects, filterObj) =>{
+//   for(let i=0; i<arrOfObjects.length;i++){
+//     const currentObject = arrOfObjects[i];
+
+
+//     //user the filter object, and compare the keys and valeus in it, with current object.
+//     // for(let key in filterObj){
+//       const filterValue = filterObj[key];
+
+//       if(currentObject[key]!== filterValue) cleanObj = false;
+//     // }
+//     if(clearnObj) filterObj.push(currentObject)
+//   }
+// }

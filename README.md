@@ -69,7 +69,7 @@ You can also run the file you are working on in its entirety by using Node. Be s
 
 ```
 $ node isEqual.js
-```
+```q
 
 # Submitting
 After you've finished or time has expired, you'll need to add, commit and push your code.
