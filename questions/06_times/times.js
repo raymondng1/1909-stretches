@@ -3,7 +3,7 @@ function times(num) {
         return num * num2;
     }
     if(typeof num !== 'number'){
-        throw("Numbers only!")
+        throw ('Numbers only!')
     }
 }
 
