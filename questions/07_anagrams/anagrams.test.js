@@ -1,6 +1,6 @@
 const { checkAnagrams } = require('./anagrams');
 
-describe('Anagram', () => {
+xdescribe('Anagram', () => {
   test('it should return a boolean', () => {
     expect(typeof checkAnagrams('hello', 'world')).toEqual('boolean');
   });

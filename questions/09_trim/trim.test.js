@@ -1,6 +1,6 @@
 const { trim } = require('./trim');
 
-describe('Trim', () => {
+xdescribe('Trim', () => {
   test('it should return an object', () => {
     const obj = {
       foo: false,
